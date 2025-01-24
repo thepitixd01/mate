@@ -7,108 +7,109 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f9f9f9;
-            color: #333333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
+            background-image:url(https://st3.depositphotos.com/18803028/35023/i/450/depositphotos_350235678-stock-photo-mathematics-background-formulas-seamless-illustration.jpg);
+    color: #3f3f3f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 
-        .container {
-            background-color: #ffffff;
-            border: 1px solid #d1c4e9;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-            border-radius: 12px;
-            max-width: 700px;
-            width: 90%;
-            padding: 20px;
-            margin: 20px;
-            text-align: center;
-        }
+}
 
-        h1, h2 {
-            color: #9c66b3;
-        }
+.container {
+    background-color: #ffffffe8; /* Fondo blanco para la sección principal */
+    border: 1px solid #e2beff; /* Borde pastel suave */
+    box-shadow: 0 4px 10px rgba(167, 167, 167, 0.05);
+    border-radius: 12px;
+    max-width: 700px;
+    width: 90%;
+    padding: 40px 20px;
+    margin: 20px;
+    text-align: center;
+}
 
-        h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
+h1, h2 {
+    color: #9150c7; /* Rosa pastel para los encabezados */
+}
 
-        h2 {
-            font-size: 1.5em;
-            margin-top: 20px;
-        }
+h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
 
-        p, ul {
-            font-size: 1em;
-            line-height: 1.8;
-            margin: 15px 0;
-            color: #4a4a4a;
-        }
+h2 {
+    font-size: 1.5em;
+    margin-top: 25px;
+}
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
+p, ul {
+    font-size: 1em;
+    line-height: 1.8;
+    margin: 20px 0;
+    color: #3f3f3f;
+}
 
-        table th, table td {
-            border: 1px solid #e1bee7;
-            padding: 10px;
-            text-align: center;
-        }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
 
-        table th {
-            background-color: #f3e5f5;
-            color: #9c66b3;
-        }
+table th, table td {
+    border: 1px solid #a567b126; /* Borde suave pastel */
+    padding: 15px;
+    text-align: center;
+}
 
-        table tr:nth-child(even) {
-            background-color: #fafafa;
-        }
+table th {
+    background-color: #dac8dd; /* Fondo pastel suave para los encabezados de la tabla */
+    color: #9150c7; /* Color pastel para texto de encabezados */
+}
 
-        .btn {
-            display: inline-block;
-            background-color: #9c66b3;
-            color: #ffffff;
-            border: none;
-            padding: 12px 20px;
-            text-align: center;
-            border-radius: 25px;
-            font-size: 1em;
-            cursor: pointer;
-            margin: 20px 0;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-        }
+table tr:nth-child(even) {
+    background-color: #efefef; /* Color alterno muy suave para filas */
+}
 
-        .btn:hover {
-            background-color: #7e4e98;
-        }
+.btn {
+    display: inline-block;
+    background-color: #9150c7; /* Botón con fondo rosa pastel */
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 25px 0;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
 
-        .section {
-            display: none;
-        }
+.btn:hover {
+    background-color: #561e85; /* Fondo más oscuro al pasar el cursor */
+}
 
-        .section.active {
-            display: block;
-        }
+.section {
+    display: none;
+}
 
-        .pagination {
-            font-size: 0.9em;
-            color: #9c66b3;
-            margin-top: 10px;
-        }
+.section.active {
+    display: block;
+}
 
-        .footer {
-            font-size: 0.8em;
-            color: #9c66b3;
-            margin-top: 20px;
-        }
+.pagination {
+    font-size: 1em;
+    color: #9150c7;
+    margin-top: 15px;
+}
+
+.footer {
+    font-size: 0.9em;
+    color: #9150c7; /* Rosa pastel para el pie de página */
+    margin-top: 25px;
+}
     </style>
     <script>
         function showSection(current, total, nextId) {
